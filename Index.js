@@ -1,6 +1,6 @@
 // const { Socket } = require('socket.io')
 
-const io=require('socket.io')(8800,{
+const io=require('socket.io')("https://hey-chat-application-socket-io.onrender.com",{
     cors:{
         orgin: "https://fsd-hey-chat-application-frontend.vercel.app",
     },
